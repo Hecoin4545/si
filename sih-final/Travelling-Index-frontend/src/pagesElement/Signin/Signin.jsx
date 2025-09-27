@@ -14,7 +14,8 @@ function Signin() {
 //   const { login } = require('../../lib/authContext').useAuth();
   const handleSubmit = (e)=>{
     e.preventDefault()
-    axios.post("http://localhost:8000/signin" , { email , password}).then((r)=>{
+    axios.post("http://localhost:8000/signin" 
+    , { email , password}).then((r)=>{
       console.log(r);
       navigate('/')
     }).catch((e)=>{

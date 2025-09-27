@@ -13,7 +13,19 @@ function Footer() {
                 <p className='w-[80%] text-sm font-semibold font-[karla]'>Traveling – it leaves you speechless, then turns you into a storyteller.</p>
             </div>
             <div className="buttons-footer-details w-[70rem] flex justify-end items-end">
-          <Button variant='secondary' className='cursor-pointer font-bold font-[lora] mr-3' >Survey</Button>
+          <a 
+  href="https://forms.gle/27TLRHqxUG6AM57K6" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <Button 
+    variant='secondary' 
+    className='cursor-pointer font-bold font-[lora] mr-3'
+  >
+    Survey
+  </Button>
+</a>
+
           <Button variant='secondary' className='cursor-pointer font-bold font-[lora]' >Signup</Button>
             </div>
         </div>
@@ -76,12 +88,12 @@ function Footer() {
                         </div>
                         <div className="anchor-right-footer-section">
                         <ul className='mt-1'>
-                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Signup</Link></li>
+                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='/signup'>Signup</Link></li>
                                 <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Dashboard</Link></li>
                                 <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='/posts'></Link>Post</li>
-                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Home</Link></li>
-                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Explore</Link></li>
-                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Trending</Link></li>
+                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='Home'>Home</Link></li>
+                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='Explore'>Explore</Link></li>
+                                
                             </ul>
                         </div>
                     </div>

@@ -9,7 +9,7 @@ function Home() {
         <div className="image-section px-10 pt-10">
             <img className=' rounded-md' src={homeImage} alt="" />
         </div>
-        <div className="information-home-image-section px-10 w-[92rem] flex justify-center items-center">
+        <div className="information-home-image-section px-10 w-[100%] flex justify-center items-center">
             <div className="poper-info-home flex justify-evenly items-center h-[6rem] bg-[#070f2be8] w-[67rem] rounded-md ">
               <InnerHome Headlines='Location:' Information='Mysore , Karnataka' />
               <InnerHome Headlines='Date:' Information='27-09-25' />

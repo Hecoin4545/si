@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import '../Navbar/Navbar.css'
 import {Link} from 'react-router-dom'
-import data from '../../data/facts.json'
+import data from '../../data/facts.json' 
 import { Button } from '@/components/ui/button'
 import { Toaster } from "@/components/ui/toaster"
 import { useToast } from "@/components/ui/use-toast"
@@ -36,7 +36,7 @@ function Navbar() {
           <ul className=' w-64 flex justify-start items-center font-[karla] text-lg'>
             <li className='p-4'><Link to="/" className='text-slate-200 hover:text-slate-300'>Home</Link></li>
             <li className='p-4'><Link to="/explore" className='text-slate-200 hover:text-slate-300'>Explore</Link></li>
-            <li className='p-4'><Link to="#" className='text-slate-200 hover:text-slate-300'>Trending</Link></li>
+            <li className='p-4'><Link to="/post" className='text-slate-200 hover:text-slate-300'>Posts</Link></li>
           </ul>
         </div>
         <div className="left-navbar w-[20%] flex justify-end pr-10">
